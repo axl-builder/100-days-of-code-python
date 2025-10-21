@@ -10,8 +10,8 @@ def generate_band_name():
 
     print("🎵 Welcome to the Band Name Generator 🎵\n")
 
-    city = input("What's the name of the city you grew up in?\n").strip()
-    pet = input("What's your pet's name?\n").strip()
+    city = input("What's the name of the city you grew up in?").strip()
+    pet = input("What's your pet's name? ").strip()
 
     # Handle empty input gracefully
     if not city or not pet:

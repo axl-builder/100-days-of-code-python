@@ -47,3 +47,6 @@
 #         move()
 #     else:
 #         turn_left()
+
+cd "C:\Users\Axel\_infotech\_notebook"
+jupyter notebook
